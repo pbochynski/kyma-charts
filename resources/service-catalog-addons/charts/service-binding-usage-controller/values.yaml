@@ -1,0 +1,9 @@
+replicaCount: 1
+image:
+  pullPolicy: IfNotPresent
+service:
+  externalPort: 80
+  internalPort: 8080
+
+securityContext:
+  runAsUser: 2000

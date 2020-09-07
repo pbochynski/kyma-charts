@@ -1,0 +1,7 @@
+deployment:
+  image:
+    pullPolicy: IfNotPresent
+tests:
+  central: false
+  image:
+    pullPolicy: IfNotPresent
